@@ -1,0 +1,219 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root{
+  --secondry-color:#3498db;
+  /* --primary-gradient: transparent; */
+  --w3m-accent-color: #58fff5 !important;
+  --w3m-background-color: #038b82 !important;
+}
+
+@font-face {
+  font-family: 'Geronimo';
+  src: local('Geronimo'), url("./assets/fonts/Starlight.ttf") format("opentype");
+  font-style: normal;
+  font-weight: normal;
+  font-display: swap;
+   
+}
+ 
+/* @font-face {
+  font-family: 'Borned';
+  src: local('Borned'), url("./assets/fonts/soccer.otf") format("opentype");
+  font-style: normal;
+  font-weight: normal;
+  font-display: swap;
+   
+} */
+
+@font-face {
+  font-family: 'Megison';
+  src: local('Megison'), url("./assets/fonts/Magison-BF65321bb8b988e.otf") format("opentype");
+  font-style: normal;
+  font-weight: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'SFPro';
+  src: local('SFPro'), url("./assets/fonts/sf-ui-display-medium-58646be638f96.otf") format("opentype");
+  font-style: normal;
+  font-weight: normal;
+  font-display: swap;
+}
+.megison, h1 {
+  font-family: megison;
+}
+
+.borned, h2, h3, h4, h5, h6{
+  font-family: borned;
+  letter-spacing: 2px;
+   
+}
+
+.sfpro, p{
+  font-family: sfpro;
+}
+
+.headroom {
+  z-index: 50 !important;
+  /* max-width: 90% !important; */
+}
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; 
+}
+
+html{
+  scroll-behavior: smooth;
+}
+body {
+  background-color: #080A19;
+  color: white;
+  overflow-x: hidden;
+  font-family: sfPro;
+}
+
+
+
+#hero-right-container {
+  
+  box-shadow: 0px 0px 31px #0459FC;
+  backdrop-filter: blur(2px);
+}
+
+.btn2 {
+  display: flex;
+  /* font-weight: bold; */
+  /* min-width: 120px; */
+  height: fit-content;
+  font-size: 13px;
+  padding: 6px 20px;
+  justify-content: center;
+  align-items: center;
+  border-radius: 20px;
+  color: black;
+  font-family: borned;
+  background: #58FFF5;
+
+box-shadow: 0px 4px 4px 0px rgba(40, 81, 197, 0.53);
+}
+.btn2:active {
+  scale: 0.9;
+  transition: all 0.1s ease-in-out;
+}
+
+
+
+.s5smallhead {
+    color: #CAD1E9;
+    /* text-align: center; */
+    font-family: borned;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 100%;
+    /* 14px */
+    width: 100%;
+    height: 58px;
+    align-self: stretch;
+    margin: 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 3px;
+    border-radius: 38px;
+    background: #58FFF5;
+    margin-bottom: 10px;
+    box-shadow: 0px 0px 12px 0px rgba(255, 255, 255, 0.2) inset, 0px 4px 50px 0px rgba(100, 202, 239, 0.218);
+}
+.s5box {
+    background: #0F0B15;
+    height: 59px;
+    width: 100%;
+    display: flex;
+    gap:5px;
+    
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 38px;
+    padding: 1px 30px ;
+    color: #E3E3E3;
+    font-family: borned;
+    font-size: 20px;
+    font-style: normal;
+    /* font-weight: 500; */
+    line-height: normal;
+
+    /* 14px */
+
+}
+
+.banner-container {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.banner-image {
+  width: 40%;
+  max-width: 40%;
+  height: auto;
+  border-radius: 1rem;
+}
+
+@media (min-width: 576px) {
+  .banner-image {
+      max-width: 540px;
+  }
+}
+
+@media (min-width: 768px) {
+  .banner-image {
+      max-width: 720px;
+  }
+}
+
+@media (min-width: 992px) {
+  .banner-image {
+      max-width: 960px;
+  }
+}
+
+@media (min-width: 1200px) {
+  .banner-image {
+      max-width: 1140px;
+  }
+}
+
+@media (min-width: 1400px) {
+  .banner-image {
+      max-width: 1320px;
+  }
+}
+
+.hero-head {
+  font-family: 'Geronimo', sans-serif;
+  font-size: 6vw;
+}
+@media (max-width: 1200px) {
+  .hero-head {
+    font-size: 5vw;
+  }
+}
+
+@media (max-width: 768px) {
+  .hero-head {
+    font-size: 8vw;
+  }
+}
+
+@media (max-width: 480px) {
+  .hero-head {
+    font-size: 10vw;
+  }
+}
+ 
