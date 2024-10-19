@@ -21,7 +21,7 @@ const S1Hero = () => {
             <div className="absolute left-0 bottom-0 bg-gradient-to-t from-[#080A19] via-[rgba(0, 143, 129, 0.0061)] to-[rgba(0, 0, 0, 1)] w-full h-[100px] z-1"></div>
 
             <div className="relative z-10 h-[80vh] flex gap-10 phone:gap-6 text-center flex-col items-center justify-center">
-                <h1 data-aos="zoom-in" className="hero-head text-7xl tablet:text-5xl phone:text-4xl max-w-[53rem] tracking-wide leading-normal tablet:leading-normal phone:leading-normal font-bold font-bold">
+                <h1 data-aos="zoom-in" className="hero-head text-7xl tablet:text-5xl phone:text-4xl max-w-[53rem] tracking-wide leading-normal tablet:leading-normal phone:leading-normal  font-bold">
                     Welcome To <br /> Blocks Revenue Token
                 </h1>
                 <p data-aos="zoom-in" className="max-w-[50rem] phone:leading-tight text-gray-300">
