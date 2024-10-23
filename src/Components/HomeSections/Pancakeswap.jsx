@@ -16,7 +16,7 @@ const Pancakeswap = () => {
 
                     <div className=" text-center  flex gap-5  flex-col items-center justify-center">
                         <h2 data-aos="zoom-in-up" className="text-2xl font-extralight  desktop:text-xl    ">Next Listing</h2>
-                        <h2 data-aos="zoom-in-up" className="text-5xl  font-normal desktop:text-4xl    ">   Comming Soon  </h2>
+                        <h2 data-aos="zoom-in-up" className="text-5xl  font-normal desktop:text-4xl    ">   Coming Soon  </h2>
                         <div className=' w-[20rem] overflow-x-hidden border-2 flex shadow-md shadow-white items-center rounded-full h-8 ' >
                             <div data-aos="zoom-in-right" data-aos-duration="10000"    className=' w-[18rem] shadow-inner  shadow-white   bg-green-500 rounded-full h-7 ' >
                                 
