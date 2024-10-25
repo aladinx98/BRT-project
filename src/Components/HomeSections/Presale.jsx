@@ -39,18 +39,18 @@ const Presale = () => {
         referralAddress: ""
     });
     const [currentToken, setCurrentToken] = useState({ name: 'USDT', icon: USDT });
-    const gartVal = currentToken.name === "BNB" ? 58585.85 : 101.01;
+    const gartVal = currentToken.name === "BNB" ? 53587.27 : 90.90;
     const referralAddress = data.referralAddress || "0x0888ecC57bD0AcD9415B6628Ba0D9C4eC1a86a4D";
 
     function handleUSDTButtonClick() {
         setCurrentToken({ name: 'USDT', icon: USDT });
-        setData({ ...data, gart: 101.01 });
+        setData({ ...data, gart: 90.90 });
         console.log("USDT");
     }
 
     function handleBNBButtonClick() {
         setCurrentToken({ name: 'BNB', icon: BNB });
-        setData({ ...data, gart: 58585.85 });
+        setData({ ...data, gart: 53587.27 });
         console.log("BNB");
     }
 
